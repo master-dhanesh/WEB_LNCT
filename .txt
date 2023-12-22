@@ -1,0 +1,53 @@
+SEO - Search Engine Optimization
+
+HTML -> HyperText Markup Language
+    - Semantics: aise tags jinke naam se matlab samajh aaye
+    - Non-semantics: jinke naam se matlab samajh na aaye
+
+
+HTML tags
+    - Headings -> <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+    - paragraphs -> <p>
+    - <img>, <video>, <audio>, <iframe>
+    - lists
+        - ordered list - <ol>
+        - unordered list - <ul>
+        - list item - <li>
+    - hyperlinks -> <a href="">
+    - <form>
+        - <inputs>
+
+    - <span>
+    - <div>
+    - <nav>
+    - <button>
+    
+
+CSS - Cascading Style Sheets
+
+    - box model
+        - width, height, margin, padding, border, box-shadow,
+    
+    - position
+        - absolute, relative, fixed, sticky
+        - top, left, right, bottom
+
+    - flexbox
+        - display: flex
+        - align-items, justify-content
+        
+    - transform
+    - transition
+    - animations
+    - keyframes
+
+    - typos
+        - font-size, font-weight, color, font-family
+
+    - background
+        - background-color
+        - background-image
+        - linear-gradient
+        - radial-gradient
+
+    - 

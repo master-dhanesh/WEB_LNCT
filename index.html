@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LNCT_BCA</title>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/sheryjs/dist/Shery.css"
+        />
+        <!-- Recommended -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+            <img width="50" class="logo" src="Shery3D.png" alt="" />
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Products</a>
+            </div>
+            <img width="50" class="menu" src="menu.png" alt="" />
+        </nav>
+
+        <header>
+            <h1 class="magnet-target">Big Sale</h1>
+            <div class="content">
+                <h3>Special offer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Pariatur repellendus nemo quisquam temporibus harum
+                    perferendis!
+                </p>
+            </div>
+        </header>
+        <img
+            class="centerIMG"
+            src="https://images.unsplash.com/photo-1598897516650-e4dc73d8e417?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+        />
+        <div class="effect"></div>
+
+        <div class="section1">
+            <div>
+                <h3>200 Discount</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Consequatur atque commodi enim placeat? Ab, ducimus?
+                </p>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div>
+                <h1>001</h1>
+                <iframe
+                    width="300"
+                    height="150"
+                    src="https://www.youtube.com/embed/FM4EniYX2Jo"
+                    title="Shery.js: Your Secret Weapon for Amazing Websites! 💪🎨"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+
+        <!--  Gsap is needed for Basic Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+        <!-- Scroll Trigger is needed for Scroll Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+        <!-- Three.js is needed for 3d Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+        <!-- ControlKit is needed for Debug Panel -->
+        <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/sheryjs/dist/Shery.js"
+        ></script>
+        <!-- Recommended -->
+        <script>
+            Shery.mouseFollower();
+            Shery.makeMagnet(".magnet-target" /* Element to target.*/, {
+                ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+                duration: 1,
+            });
+            Shery.imageEffect(".centerIMG", {
+                style: 2,
+                debug: true,
+                config: {},
+            });
+        </script>
+    </body>
+</html>
